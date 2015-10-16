@@ -1,0 +1,130 @@
+body{
+	background-color: #cacaca;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+#blog-wrapper{
+	max-width: 900px;
+	margin: auto;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+#header{       
+	/*overflow hidden gets the floated elements height sent up*/
+	overflow: hidden;
+}
+
+h1 {
+	margin: 20px 0px;
+}
+
+#header .header-text{
+	font-size: 20px;
+	float: left;
+	margin: 0px 0px 0px 20px;
+}
+
+#header .search-bar{
+	float:right;
+	margin: 30px 20px 0 0;
+}
+
+#header .search-bar input{
+	border-radius: 15px;
+	width: 200px;
+	height: 15px;
+}
+
+input::-webkit-input-placeholder{
+	padding-left: 8px;
+	font-weight: bold;
+}
+
+
+.blog-header-image{
+	max-width: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+h3{
+	color: #003d99;
+}
+
+#main-container {
+	width: 75%;
+	float: left;
+}
+
+.blog-item-header{
+	border-bottom: solid 1px #cacaca;
+	margin: 20px;
+}
+
+.blog-author{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.blog-body{
+	margin: 20px;
+}
+
+#right-rail {
+	width: 25%;
+	float: left;
+}
+
+.rail-header {
+	margin: 0px 20px 0px 20px;
+	font-size: 12px;
+	color: #404040;
+	border-bottom: 1px solid;
+}
+
+#right-rail .right-rail-item{
+	background-color: #ebebeb;
+	border: 1px solid #eee;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	border-radius: 5px;
+	color: #003d99;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+#footer{
+	clear: both;
+	font-size: 12px;
+	margin: 0px 20px 20px 20px;
+	padding-top: 20px;
+	border-top: 1px solid #cacaca;
+	max-width: 100%;
+
+}
+
+#name{
+	width: 50%;
+	text-align: left;
+	float: left;
+}
+
+#year{
+	width: 50%;
+	text-align:right;
+	float: left;
+}
+
+
+
+
+
+
