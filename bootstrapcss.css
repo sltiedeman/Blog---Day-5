@@ -1,0 +1,71 @@
+
+
+
+#my-header{
+	margin-top: 80px;
+}
+
+h1{
+	font-size:3em;
+}
+
+#header-image{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#header-image img{
+	width: 100%;
+}
+.blog-author{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.blog-item-header{
+	border-bottom: solid 1px #cacaca;
+	margin: 20px 0  20px 0;
+}
+
+
+.rail-header {
+	/*margin: 0px 20px 0px 20px;*/
+	font-size: 12px;
+	color: #404040;
+	border-bottom: 1px solid;
+}
+
+#right-rail .right-rail-item{
+	background-color: #ebebeb;
+	border: 1px solid #eee;
+	margin-bottom: 25px;
+/*	margin-right: 20px;
+*/	border-radius: 5px;
+	color: #003d99;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+#footer{
+	clear: both;
+	font-size: 12px;
+	padding-top: 20px;
+	border-top: 1px solid #cacaca;
+	max-width: 100%;
+
+}
+
+#name{
+	width: 50%;
+	text-align: left;
+	float: left;
+}
+
+#year{
+	width: 50%;
+	text-align:right;
+	float: left;
+}
+
