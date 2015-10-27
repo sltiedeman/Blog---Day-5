@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="styles2.css">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+<div class="total-wrapper">
+	<div id="message"></div>
+	<div id="win-loss">
+		<span id = "wins">Wins:</span> 
+		<span id="win-count">0</span>Ties:
+		<span id = "total-ties"> 0</span>Losses:
+		<span id = "total-lost"> 0</span>% Won:
+		<span id = "winning-percentage"> 0
+		</div>
+	<div id="dealer-hand">
+		<div id="dealer-total-wrapper">Dealer Total<div id="dealer-total">0</div></div>
+		<div id="dealer-card-one" class="card empty"></div>
+		<div id="dealer-card-two" class="card empty"></div>
+		<div id="dealer-card-three" class="card empty"></div>
+		<div id="dealer-card-four" class="card empty"></div>
+		<div id="dealer-card-five" class="card empty"></div>
+		<div id="dealer-card-six" class="card empty"></div>
+	</div>
+
+	<div id="player-hand">
+		<div id="player-total-wrapper">Player Total<div id="player-total">0</div></div>
+		<div id="player-card-one" class="card empty"></div>
+		<div id="player-card-two" class="card empty"></div>
+		<div id="player-card-three" class="card empty"></div>
+		<div id="player-card-four" class="card empty"></div>
+		<div id="player-card-five" class="card empty"></div>
+		<div id="player-card-six" class="card empty"></div>
+	</div>
+
+	<div id="play-buttons">
+		<div cards></div>
+		<button id="draw-button" onclick="deal()" disabled="true">Deal</button>
+		<button id="hit-button" onclick="hit()" disabled="true">Hit</button>
+		<button id="stand-button" onclick="stand()" disabled="true">Stand</button>
+
+	</div>
+
+	<div id="wager-buttons">
+		<div cards></div>
+		<button id="wager1-button" onclick="wager1(1)">$1</button>
+		<button id="wager2-button" onclick="wager1(2)">$2</button>
+		<button id="wager5-button" onclick="wager1(5)">$5</button>
+	</div>
+
+	<div id="wagers">
+		<div id="total-money" >Money: $<span id="money">50</span></div>
+		<div id="current-bet" >Current Wager: <span id="current-bet-amount">$0</span></div>
+		<div id="wins-losses" >Total Won/Lost: <span id="wins-and-losses">$0</span><div>
+	</div>
+
+
+
+
+	<div id="message"></div>
+</div>
+</body>
+</html>

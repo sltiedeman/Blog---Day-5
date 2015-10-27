@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="bootstrapcss.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	 <script>
+		// Can also be used with $(document).ready()
+		$(window).load(function() {
+		  $('.flexslider').flexslider({
+		    animation: "slide"
+		  });
+          $('a.flex-prev ::before').css('font-size','35px');
+        });
+    
+    
+    	$('#myTabs a').click(function (e) {
+  			e.preventDefault()
+  			$(this).tab('show')
+		})
+    </script>
+
+</head>
+
+
+<body>
+	
+<div class="container">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top dropdown" role="navigation">
+	      <div class="container-fluid" >
+	          <div class="navbar-header">
+	              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+	                  <span class="sr-only">Toggle navigation</span>
+	                  <span class="icon-bar"></span>
+	                  <span class="icon-bar"></span>
+	                  <span class="icon-bar"></span>
+	               </button>
+	          </div>
+	          <div class="collapse navbar-collapse navbar-left" id="navigationbar">
+	              <ul class="nav navbar-nav" id="navbar">
+	                  <li><a href="#about">Home</a></li>
+	                  <li><a href="#portfolio" data-toggle="dropdown">Portfolio</a>
+	                  	<ul class="dropdown-menu" id="dropdown-stuff">
+	                  		<li><a href="pages/blackjack/index.html"><span class="li-text">BlackJack</span></a></li>
+	                  		<li><a href="pages/tictactoe/index.html"><span class="li-text">Tic-Tac-Toe</span></a></li>
+	                  		<li><a href="pages/forms/bootstrapform.html"><span class="li-text">Forms</span></a></li>
+	                  		<li><a href="pages/dice/index.html"><span class="li-text">Dice</span></a></li>
+	                  		<li><a href="pages/wireframe/index.html"><span class="li-text">Wireframe</span></a></li>
+
+	                  	</ul>
+	                  </li> 
+	                  <li><a href="#portfolio" data-toggle="dropdown">Vacations</a>
+	                  	<ul class="dropdown-menu" id="dropdown-stuff">
+	                  		<li><a href="pages/iceland.html"><span class="li-text">Iceland</span></a></li>
+	                  		<li><a href="pages/tictactoe/index.html"><span class="li-text">Thailand</span></a></li>
+	                  		<li><a href="pages/forms/bootstrapform.html"><span class="li-text">Cancun</span></a></li>
+	                  		<li><a href="pages/dice/index.html"><span class="li-text">Europe</span></a></li>
+
+
+	                  	</ul>
+	                  </li>       
+
+	                  <li><a href="#contact">Contact</a></li>
+	              </ul>
+	         </div><!-- /.navbar-collapse -->
+	      </div><!-- /.container-fluid -->
+	</nav>
+
+	<div id="my-header">
+		<h1>This is my blog - Get Excited!</h1>
+	</div>
+
+<!-- 	<span class="glyphicon glyphicon-menu-left"></span>
+	<span class="glyphicon glyphicon-menu-right"></span>
+ -->
+
+	<div id="header-image" class="col-md-12">
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="img/image1.jpg">
+		      <p class="flex-caption"></p>
+		    </li>
+		    <li>
+		      <img src="img/image2.jpg"/>
+		      <p class="flex-caption"></p>
+		    </li>
+		 </ul>
+	</div>
+
+<!-- 		<img class="img-responsive text-center" src="headerimage.jpg">
+ -->
+
+	<div class="row" id="main-body">
+		<div class="col-md-8 col-sm-8 col-xs-12">  			
+			<div>
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#post1" aria-controls="post1" role="tab" data-toggle="tab">Post 1</a></li>
+			    <li role="presentation"><a href="#post2" aria-controls="post2" role="tab" data-toggle="tab">Post 2</a></li>
+
+			  </ul>
+
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="post1">
+				    	One.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="post2">
+				    	Two.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				   
+				  	</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div id="right-rail">
+			<!-- Right rail div -->
+				<div class="right-rail-item well col-md-12 col-sm-12 col-xs-12">
+					<div class="rail-header">
+						<h4>Main Menu</h4>
+					</div>
+					<div class="rail-list">
+						<ul>
+							<li>About</li>
+							<li>Home</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="right-rail-item well col-md-12 col-sm-12 col-xs-12">
+					<div class="rail-header">
+						<h4>Older Posts</h4>
+					</div>
+					<div class="rail-list">
+						<ul>
+							<li>Welcome to my blog</li>
+							<li>Weird facts about me</li>
+							<li>Some of my famous work</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="right-rail-item well col-md-12 col-sm-12 col-xs-12">
+					<div class="rail-header">
+						<h4>My Amazing Portfolio</h4>
+					</div>
+					<div class="rail-list">
+						<ul>
+							<li>Blackjack Game</li>
+							<li>Dice Game</li>
+							<li>Blog Project</li>
+							<li>Image Gallery</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="right-rail-item well col-md-12 col-sm-12 col-xs-12">
+					<div class="rail-header">
+						<h4>Most Read Posts</h4>
+					</div>
+					<div class="rail-list">
+						<ul>
+							<li>How to learn javascript</li>
+							<li>HTML tutorial</li>
+							<li>CSS tricks</li>
+							<li>Make a game</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="right-rail-item well col-md-12 col-sm-12 col-xs-12">
+					<div class="rail-header">
+						<h4>Sites I Like</h4>
+					</div>
+					<div class="rail-list">
+						<ul>
+							<li>TheVerge</li>
+							<li>Gizmodo</li>
+							<li>UGA Sports</li>
+							<li>AJC.com</li>
+							<li>Daily Mail</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "col-md-12" id="footer">
+		<div id="name">Stephen Tiedemann &copy</div>
+		<div id="year">2015</div>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>
+
